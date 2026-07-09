@@ -20,3 +20,6 @@ app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
     console.log(`Acesse: http://localhost:${PORT}/api/status`);
 });
+
+// Adicione esta linha logo após o const cors = require('cors');
+const db = require('./backend/config/database');
